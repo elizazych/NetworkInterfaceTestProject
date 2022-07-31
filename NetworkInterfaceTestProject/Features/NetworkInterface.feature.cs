@@ -76,7 +76,7 @@ namespace NetworkInterfaceTestProject.Features
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Setting new IP address to network interface")]
         [NUnit.Framework.CategoryAttribute("SetIPv4Address")]
-        [NUnit.Framework.TestCaseAttribute("Ethernet", "255.255.255.0", "192.168.0.12", "192.168.0.7", null)]
+        [NUnit.Framework.TestCaseAttribute("Ethernet", "255.255.255.0", "192.168.0.15", "192.168.0.7", null)]
         public virtual void SettingNewIPAddressToNetworkInterface(string networkInterfaceName, string mask, string iPv4Address, string iPAddress, string[] exampleTags)
         {
             string[] @__tags = new string[] {

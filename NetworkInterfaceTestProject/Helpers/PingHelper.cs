@@ -30,16 +30,15 @@ namespace NetworkInterfaceTestProject.Helpers
                 }
             };
 
-            TimeSpan ts = new TimeSpan(0, 0, 5);
-            Thread.Sleep(ts);
+            Thread.Sleep(4000);
 
             process.Start();
+            
 
             while (!process.StandardOutput.EndOfStream)
             {
                 _outputList.Add(process.StandardOutput.ReadLine());
             };
-
         }
 
         public bool CheckIfPingCmdRun(string source, string ipAddress)
@@ -61,6 +60,7 @@ namespace NetworkInterfaceTestProject.Helpers
                     line = item;
                 }
             }
+
             Regex rg = new Regex(@"\b(Lost = )(\d)", RegexOptions.IgnoreCase);
             Match matches = rg.Match(line);
             return Convert.ToInt16(matches.Groups[2].Value);

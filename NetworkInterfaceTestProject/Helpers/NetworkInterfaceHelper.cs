@@ -23,7 +23,8 @@ namespace NetworkInterfaceTestProject.Helpers
 
         public IEnumerable<NetworkInterface> GetDataOfNetworkInterface(string networkInterface)
         {
-            return adapters.Where(x => x.Name.Equals(networkInterface));
+            var networkInterfaces = NetworkInterface.GetAllNetworkInterfaces();
+            return networkInterfaces.Where(x => x.Name.Equals(networkInterface));
         }
 
         public IEnumerable<UnicastIPAddressInformation> CheckIPv46Address(IEnumerable<NetworkInterface> networkInterfaces, string ipAddressFamily = "InterNetwork")

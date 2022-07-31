@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eliza.zych\\Projects\\NetworkInterfaceTestProject\\NetworkInterfaceTestProject\\NetworkInterfaceTestProject.csproj": {}
+    "C:\\Users\\eliza.zych\\Projects\\NetworkInterfaceTestProject\\NetworkInterfaceTestProjectVS\\NetworkInterfaceTestProject\\NetworkInterfaceTestProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eliza.zych\\Projects\\NetworkInterfaceTestProject\\NetworkInterfaceTestProject\\NetworkInterfaceTestProject.csproj": {
+    "C:\\Users\\eliza.zych\\Projects\\NetworkInterfaceTestProject\\NetworkInterfaceTestProjectVS\\NetworkInterfaceTestProject\\NetworkInterfaceTestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eliza.zych\\Projects\\NetworkInterfaceTestProject\\NetworkInterfaceTestProject\\NetworkInterfaceTestProject.csproj",
+        "projectUniqueName": "C:\\Users\\eliza.zych\\Projects\\NetworkInterfaceTestProject\\NetworkInterfaceTestProjectVS\\NetworkInterfaceTestProject\\NetworkInterfaceTestProject.csproj",
         "projectName": "NetworkInterfaceTestProject",
-        "projectPath": "C:\\Users\\eliza.zych\\Projects\\NetworkInterfaceTestProject\\NetworkInterfaceTestProject\\NetworkInterfaceTestProject.csproj",
+        "projectPath": "C:\\Users\\eliza.zych\\Projects\\NetworkInterfaceTestProject\\NetworkInterfaceTestProjectVS\\NetworkInterfaceTestProject\\NetworkInterfaceTestProject.csproj",
         "packagesPath": "C:\\Users\\eliza.zych\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eliza.zych\\Projects\\NetworkInterfaceTestProject\\NetworkInterfaceTestProject\\obj\\",
+        "outputPath": "C:\\Users\\eliza.zych\\Projects\\NetworkInterfaceTestProject\\NetworkInterfaceTestProjectVS\\NetworkInterfaceTestProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

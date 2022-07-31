@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "poUlzV75Nqp59gKf4H1g15mVnj5uspNv00bAr1JOw04HmougLhEMfsa9fRR/BE9Lz1eJS/+bhtdnpustwIG7WA==",
+  "dgSpecHash": "bHhqhaQnR+n73BFZSxBxDn47nwp1K9YOog5Gla+XJJvxAg0pDnWrtHrA2QwWxEklzU9EdQMLktSBnHJtPzNN5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\eliza.zych\\Projects\\NetworkInterfaceTestProject\\NetworkInterfaceTestProject\\NetworkInterfaceTestProject.csproj",
+  "projectFilePath": "C:\\Users\\eliza.zych\\Projects\\NetworkInterfaceTestProject\\NetworkInterfaceTestProjectVS\\NetworkInterfaceTestProject\\NetworkInterfaceTestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eliza.zych\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\eliza.zych\\.nuget\\packages\\fluentassertions\\6.2.0\\fluentassertions.6.2.0.nupkg.sha512",

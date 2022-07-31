@@ -10,5 +10,5 @@ Scenario: Setting new IP address to network interface
 	Then The ping command replies successfully
 Examples: 
 | NetworkInterfaceName | Mask          | IPv4Address  | IPAddress   |
-| Ethernet             | 255.255.255.0 | 192.168.0.12 | 192.168.0.7 |
+| Ethernet             | 255.255.255.0 | 192.168.0.15 | 192.168.0.7 |
 
